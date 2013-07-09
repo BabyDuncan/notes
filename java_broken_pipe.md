@@ -4,7 +4,7 @@
     配置环境变量:
     vim /etc/profile
     加入以下行
-    _JAVA_SR_SIGNUM=12
+    export _JAVA_SR_SIGNUM=12
     source /etc/profile 
     
 #### 即可,再次进行网络请求,没有broken pipe的问题出现,注意:此变量是配置在客户端机器上.
